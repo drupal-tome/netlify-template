@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "386063ac05e67f14eac5a416f6d4dfbb",
+    "content-hash": "8f7d35b2d288d7e098601e5e01825c3b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1691,11 +1691,17 @@
         },
         {
             "name": "drupal/tome",
-            "version": "dev-1.x",
+            "version": "1.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/tome",
-                "reference": "262289f10b2fa3ac68b7e6479f98445ff1db8346"
+                "reference": "8.x-1.0-alpha1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/tome-8.x-1.0-alpha1.zip",
+                "reference": "8.x-1.0-alpha1",
+                "shasum": "197180c7c40f6916f5193bd47be63d9ea1d6116c"
             },
             "require": {
                 "drupal/core": "*"
@@ -1706,11 +1712,11 @@
                     "dev-1.x": "1.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-1.x-dev",
-                    "datestamp": "1532793781",
+                    "version": "8.x-1.0-alpha1",
+                    "datestamp": "1538661780",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
+                        "message": "Alpha releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -1728,8 +1734,7 @@
             "homepage": "https://www.drupal.org/project/tome",
             "support": {
                 "source": "http://cgit.drupalcode.org/tome"
-            },
-            "time": "2018-07-28T19:46:43+00:00"
+            }
         },
         {
             "name": "drush/drush",
@@ -4726,7 +4731,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/tome": 20,
+        "drupal/tome": 15,
         "drupal-tome/tome_drush": 20
     },
     "prefer-stable": true,
