@@ -23,7 +23,7 @@
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/core": "~8.5",
         "drush/drush": "^9.0.0",
-        "drupal/tome": "^1.0@alpha",
+        "drupal/tome": "^1.0",
         "drupal-tome/tome_drush": "dev-master"
     },
     "scripts": {
