@@ -1,0 +1,23 @@
+uuid: b3db71b1-4119-4957-b1fb-c1f0f9ea1346
+langcode: en
+status: true
+dependencies:
+  module:
+    - bookish_image
+_core:
+  default_config_hash: n_9jqRz9qJk4vhrdxjNfN5xT9hIzRh6x51sYKs4srIc
+name: social_card
+label: 'Social card'
+effects:
+  733a8317-65f5-4192-9969-b468c206e764:
+    uuid: 733a8317-65f5-4192-9969-b468c206e764
+    id: bookish_image_effect
+    weight: -9
+    data: {  }
+  07d83a9f-7b44-4533-b96c-8a5d7ba4523b:
+    uuid: 07d83a9f-7b44-4533-b96c-8a5d7ba4523b
+    id: bookish_image_scale_and_crop
+    weight: -10
+    data:
+      width: 500
+      height: 500

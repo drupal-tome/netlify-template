@@ -1,0 +1,5 @@
+_core:
+  default_config_hash: ueCVprg3n9mzVXadYO8maKhiCJcr2quSwlKTOmbfSX4
+mode: manual
+auto_languages: 'c javascript css'
+manual_regex: 'language-([a-zA-Z1-9]*)'

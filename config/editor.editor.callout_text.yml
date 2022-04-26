@@ -1,0 +1,41 @@
+uuid: 75c52450-896a-40a0-8354-cf25ad8fd6f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.callout_text
+  module:
+    - ckeditor5
+_core:
+  default_config_hash: SFx5KmM1VxWnLsT0zBAlmhk2IgXmCZVFyzd8Am5FXyA
+format: callout_text
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - heading
+      - bold
+      - italic
+      - underline
+      - strikethrough
+      - removeFormat
+      - alignment
+      - link
+      - blockQuote
+      - codeBlock
+  plugins:
+    ckeditor5_heading:
+      enabled_headings:
+        - heading2
+        - heading3
+        - heading4
+        - heading5
+        - heading6
+image_upload:
+  status: true
+  scheme: public
+  directory: inline-images
+  max_size: ''
+  max_dimensions:
+    width: 0
+    height: 0

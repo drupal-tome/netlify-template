@@ -1,0 +1,47 @@
+uuid: 2e0ae0d8-51da-4dcf-8269-c84a0363a0a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.bookish_callout
+    - field.field.block_content.bookish_callout.body
+    - field.field.block_content.bookish_callout.field_image
+    - image.style.callout_block
+  module:
+    - bookish_image
+    - text
+_core:
+  default_config_hash: CV_owG66X5hyMliU_COKROP12Q9e2ydHBDcOluFJinQ
+id: block_content.bookish_callout.default
+targetEntityType: block_content
+bundle: bookish_callout
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_image:
+    type: bookish_image
+    weight: 27
+    region: content
+    settings:
+      preview_image_style: callout_block
+      progress_indicator: throbber
+      show_zoom: 0
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

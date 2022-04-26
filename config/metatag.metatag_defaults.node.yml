@@ -1,0 +1,31 @@
+uuid: 8d1d7d1e-ae62-4d06-9782-a5fa024000c8
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: ax6FoeAI9kHvzCLmGp1u5EXlRWFpxat3t7I_MSuqJik
+id: node
+label: Content
+tags:
+  description: '[node:summary]'
+  canonical_url: '[node:url]'
+  image_src: '[node:field_image:social_card]'
+  title: '[node:title] | [site:name]'
+  og_image_alt: '[node:field_image:alt]'
+  og_image: '[node:field_image:social_card]'
+  og_description: '[node:summary]'
+  og_image_height: '[node:field_image:social_card:height]'
+  og_site_name: '[site:name]'
+  article_modified_time: '[node:changed:custom:Y-m-d\TH:i:sO]'
+  og_image_width: '[node:field_image:social_card:width]'
+  og_title: '[node:title]'
+  article_published_time: '[node:created:custom:Y-m-d\TH:i:sO]'
+  og_url: '[node:url:absolute]'
+  twitter_cards_title: '[node:title] | [site:name]'
+  twitter_cards_image_alt: '[node:field_image:alt]'
+  twitter_cards_page_url: '[node:url:absolute]'
+  twitter_cards_image_height: '[node:field_image:social_card:height]'
+  twitter_cards_description: '[node:summary]'
+  twitter_cards_image: '[node:field_image:social_card]'
+  twitter_cards_type: summary_large_image
+  twitter_cards_image_width: '[node:field_image:social_card:width]'

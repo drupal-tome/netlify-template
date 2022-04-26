@@ -1,14 +1,14 @@
-uuid: 6518f80e-c9ad-4d05-83c3-82719a7c9226
-name: 'Drush Site-Install'
+_core:
+  default_config_hash: RePADAH4yHzDAKh-gEsDxPFK9hQe32l4p4t8Cqryww8
+langcode: en
+uuid: 58e7df58-ed88-4707-aa9d-ce28f611b8ad
+name: 'Tome Template'
 mail: admin@example.com
-slogan: ''
+slogan: 'A blogging profile for Tome users'
 page:
-  403: ''
-  404: ''
-  front: /node
+  403: /403
+  404: /404
+  front: /home
 admin_compact_mode: false
 weight_select_max: 100
-langcode: en
 default_langcode: en
-_core:
-  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

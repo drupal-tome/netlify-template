@@ -1,0 +1,23 @@
+uuid: b895762d-705b-4e77-8294-aedb92d0a07c
+langcode: en
+status: true
+dependencies:
+  module:
+    - bookish_image
+_core:
+  default_config_hash: z1KqtyCv-y9vYIxtXRPhR9ZcQjq38wy9v-9MAbqK_YU
+name: blog_teaser
+label: 'Blog teaser'
+effects:
+  f9c7d1d3-b24e-4503-9d3e-195f485ad991:
+    uuid: f9c7d1d3-b24e-4503-9d3e-195f485ad991
+    id: bookish_image_scale_and_crop
+    weight: 1
+    data:
+      width: 530
+      height: 620
+  f8a171cf-dea6-4551-be2c-82f3c267ce67:
+    uuid: f8a171cf-dea6-4551-be2c-82f3c267ce67
+    id: bookish_image_effect
+    weight: 2
+    data: {  }

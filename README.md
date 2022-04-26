@@ -5,14 +5,14 @@
 This project is a great place to start for building new Tome projects on Netlify.
 
 To get started, click the "Deploy to netlify" button above and deploy a copy of
-this template to Netlify. 
+this template to Netlify.
 
 # Requirements
 
 - PHP 7+
 - [Composer](https://getcomposer.org/)
 - [Drush](https://github.com/drush-ops/drush-launcher#installation---phar)
-- SQLite and the related PHP extensions
+- SQLite 3.6+ and the related PHP extensions
 
 # Local usage
 
@@ -24,20 +24,40 @@ drush tome:install
 
 To start a local webserver, run:
 
-```bash
+```
 drush runserver
 ```
 
-When you're ready to build your static site, run:
+then in another tab run:
+
+```
+drush uli -l 127.0.0.1:8888
+```
+
+and click the link to start editing content!
+
+If you want to preview your static build locally, run:
 
 ```bash
 drush tome:static
+drush tome:preview
 ```
 
-## Further reading
+# Changing the install profile
 
-This template is largely based on [drupal-composer/drupal-project], so it's
-recommended that you consult their [README.md] for more information.
+By default this template uses [Bookish](https://github.com/drupal-tome/bookish),
+an install profile built for Tome blogs. If you want to build a Drupal site from
+scratch instead, you can run:
 
-[drupal-composer/drupal-project]: https://github.com/drupal-composer/drupal-project
-[README.md]: https://github.com/drupal-composer/drupal-project/blob/8.x/README.md
+```
+drush tome:init
+```
+
+And choose a different install profile from there.
+
+# Further help
+
+After logging in, click "Help" in the toolbar. Bookish has extensive
+documentation located inside Drupal using the Help Topics module. A good place
+to start would be the "Configuring your Bookish site" page, which will guide
+you through personalizing the configuration of your site.

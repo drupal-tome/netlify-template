@@ -1,0 +1,35 @@
+uuid: 3417d364-e318-4eba-a7dd-579a8d168a85
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.bookish_callout
+    - field.field.block_content.bookish_callout.body
+    - field.field.block_content.bookish_callout.field_image
+  module:
+    - image
+    - text
+_core:
+  default_config_hash: IZ8viC6TPvEyhGuHz5MnEAVYthfng48BegrscbsyUoM
+id: block_content.bookish_callout.default
+targetEntityType: block_content
+bundle: bookish_callout
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

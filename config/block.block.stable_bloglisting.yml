@@ -1,0 +1,28 @@
+uuid: 4713e8e9-2e07-4cd5-9403-efe1dd1f5628
+langcode: en
+status: true
+dependencies:
+  module:
+    - bookish_components
+    - system
+  theme:
+    - stable
+_core:
+  default_config_hash: Km04Xi_TFSj5xkSjIAWnM3iJPpqu3H0soAOwdCStRPU
+id: stable_bloglisting
+theme: stable
+region: content
+weight: 0
+provider: null
+plugin: 'single_file_component_block:bk_blog_list'
+settings:
+  id: 'single_file_component_block:bk_blog_list'
+  label: 'Blog listing'
+  label_display: '0'
+  provider: bookish_components
+  component_context: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home

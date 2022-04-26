@@ -1,4 +1,4 @@
-admin: seven
-default: bartik
 _core:
-  default_config_hash: fOjer9hADYYnbCJVZMFZIIM1azTFWyg84ZkFDHfAbUg
+  default_config_hash: VUeAYpet1eOBQtsabAmrUO56JE_Mmt7yI6bHab28VfM
+admin: claro
+default: bookish_theme

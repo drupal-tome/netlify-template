@@ -1,0 +1,22 @@
+uuid: c61f65ff-8947-4ac5-b452-111e33403c12
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bookish_theme
+_core:
+  default_config_hash: L-Y8GG-caF7qn3lQuyN-JrNNpw5h0yhpbdtq_FcIZFg
+id: mainpagecontent
+theme: bookish_theme
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

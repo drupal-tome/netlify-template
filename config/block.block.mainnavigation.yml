@@ -1,0 +1,27 @@
+uuid: 30a38d51-f88c-48a3-adab-3ee91d27ee1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - bookish_theme
+_core:
+  default_config_hash: jAjT643Qiu-rNstpj9ES5Wp5jmWbKasH2CNCgkkBdHQ
+id: mainnavigation
+theme: bookish_theme
+region: before
+weight: -1
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

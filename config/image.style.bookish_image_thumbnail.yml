@@ -1,0 +1,23 @@
+uuid: ad712346-060e-453f-8a4f-25054117f3a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - bookish_image
+_core:
+  default_config_hash: M-PkeKvfj3vhHa7myzeV0nE-QrvHGgNfsrA5fRCrsFI
+name: bookish_image_thumbnail
+label: 'Bookish image thumbnail'
+effects:
+  ef56134a-95f7-4be5-83a5-0d2e77ed7824:
+    uuid: ef56134a-95f7-4be5-83a5-0d2e77ed7824
+    id: bookish_image_effect
+    weight: -9
+    data: {  }
+  244afd7c-a3b2-4749-bf55-8ad088370648:
+    uuid: 244afd7c-a3b2-4749-bf55-8ad088370648
+    id: bookish_image_scale_and_crop
+    weight: -10
+    data:
+      width: 100
+      height: 100

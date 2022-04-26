@@ -1,0 +1,21 @@
+uuid: a706c381-2e32-4e5c-b764-c711723dfcf8
+langcode: en
+status: true
+dependencies:
+  module:
+    - tome_netlify_contact
+third_party_settings:
+  tome_netlify_contact:
+    use_netlify: true
+    use_captcha: true
+    use_honeypot: true
+_core:
+  default_config_hash: asvaWJ_ye2hmao1CFkVbeSRtoj603mxqF2A-2Dnw2ZE
+id: contact_me
+label: Contact
+recipients:
+  - admin@example.com
+reply: ''
+weight: 0
+message: ''
+redirect: /contact-success

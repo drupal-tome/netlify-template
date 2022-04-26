@@ -1,15 +1,28 @@
+_core:
+  default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
 module:
-  automated_cron: 0
+  allowed_formats: 0
   big_pipe: 0
   block: 0
   block_content: 0
+  bookish_admin: 0
+  bookish_ckeditor: 0
+  bookish_components: 0
+  bookish_contact: 0
+  bookish_help: 0
+  bookish_image: 0
+  bookish_speed: 0
+  bookish_tags: 0
+  bookish_toolbar: 0
   breakpoint: 0
   ckeditor: 0
+  ckeditor5: 0
+  coffee: 0
+  coffee_extras: 0
   color: 0
-  comment: 0
   config: 0
   contact: 0
-  contextual: 0
+  ctools: 0
   datetime: 0
   dblog: 0
   dynamic_page_cache: 0
@@ -19,38 +32,44 @@ module:
   file: 0
   filter: 0
   help: 0
-  history: 0
+  help_topics: 0
+  highlight_php: 0
   image: 0
   link: 0
+  lunr: 0
   menu_link_content: 0
   menu_ui: 0
+  metatag: 0
+  metatag_open_graph: 0
+  metatag_twitter_cards: 0
   node: 0
   options: 0
   page_cache: 0
   path: 0
   path_alias: 0
-  quickedit: 0
   rdf: 0
-  search: 0
   serialization: 0
+  sfc: 0
   shortcut: 0
+  simple_sitemap: 0
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   tome: 0
   tome_base: 0
+  tome_netlify_contact: 0
   tome_static: 0
   tome_sync: 0
-  toolbar: 0
-  tour: 0
+  twig_tweak: 0
   update: 0
   user: 0
   views_ui: 0
+  pathauto: 1
   views: 10
-  standard: 1000
+  bookish: 1000
 theme:
-  bartik: 0
-  seven: 0
-profile: standard
-_core:
-  default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
+  stable: 0
+  claro: 0
+  bookish_theme: 0
+profile: bookish

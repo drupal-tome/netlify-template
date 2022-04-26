@@ -1,0 +1,26 @@
+uuid: 45af8cc7-b4fa-4209-9261-e770dbc55627
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stable
+_core:
+  default_config_hash: yf-KzrPCCC7FeCg3u5ISv0pND83kNCMJv7uf7SRq5GI
+id: stable_pagetitle
+theme: stable
+region: content
+weight: -2
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/user/*\r\n/contact/*\r\n/contact\r\n/contact-success"
