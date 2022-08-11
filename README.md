@@ -55,6 +55,9 @@ drush tome:init
 
 And choose a different install profile from there.
 
+You may have to edit `netlify.toml` to remove the `simple-sitemap-generate` and
+`LUNR_DRUSH` lines, as your new install profile may not use these modules.
+
 # Further help
 
 After logging in, click "Help" in the toolbar. Bookish has extensive
